@@ -14,11 +14,8 @@
     "operator-linebreak" : "off",
     "no-new": "off",
     "no-restricted-syntax": "off",
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "auto"
-      }
-    ]
+    "prettier/prettier": ["error", "windows", {
+      "usePrettierrc": true
+    }]
   }
 }
