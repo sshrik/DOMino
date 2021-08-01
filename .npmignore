@@ -1,0 +1,9 @@
+node_modules/
+build-tools/
+.vscode
+.github
+public/
+test/
+.eslintrc.json
+.gitignore
+.prettierrc.json
