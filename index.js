@@ -1,4 +1,4 @@
 import Dobee from './lib/Dobee';
-import Domino from './lib/Domino';
+import Component from './lib/Domino';
 
-export { Domino, Dobee };
+export { Component, Dobee };

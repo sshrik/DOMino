@@ -1,6 +1,6 @@
 {
   "name": "@sshrik/domino",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight Web App builder with web Component",
   "main": "index.js",
   "scripts": {
