@@ -28,14 +28,15 @@ function getCallback(key) {
 }
 
 function registerComponent(key, $class) {
+  initDominoStorage();
   window.Domino.definedComponent[key] = $class;
-  customElements.define(key, $class);
 }
 
 function upgradeComponent() {
-  Object.keys(window.Domino.definedComponent).forEach((componentName, index) => {
-    const $class = window.Domino.definedComponent[index];
-    customElements.define(componentName, Function($class));
+  Object.keys(window.Domino.definedComponent).forEach((componentName) => {
+    const $class = window.Domino.definedComponent[componentName];
+    console.log($class);
+    customElements.define(componentName, $class);
   });
 }
 
