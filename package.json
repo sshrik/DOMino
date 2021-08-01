@@ -1,7 +1,7 @@
 {
-  "name": "domino",
+  "name": "@sshrik/domino",
   "version": "1.0.0",
-  "description": "DOM in Component",
+  "description": "Lightweight Web App builder with web Component",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,12 +11,14 @@
     "url": "git+https://github.com/sshrik/DOMino.git"
   },
   "keywords": [
-    "web-component"
+    "web-component",
+    "web-app-builder"
   ],
-  "author": "최현준",
+  "author": "sshrik <chj878194@naver.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sshrik/DOMino/issues"
+    "url": "https://github.com/sshrik/DOMino/issues",
+    "email": "chj878194@naver.com"
   },
   "homepage": "https://github.com/sshrik/DOMino#readme",
   "devDependencies": {
